@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title tabindex="0">Site com acessibilidades</title>
+    <link href='estilo.css' rel='stylesheet'>
+</head>
+<body>
+    <div id="area">
+        <form id="formulario">
+            <fieldset>
+                <label tabindex="0">Nome: </label><input class="campo_nome" type="text" tabindex="0">
+                <label tabindex="0">Sobrenome: </label><input class="campo_sobrenome" type="text" tabindex="0"> <br><br>
+                <label tabindex="0">Email: </label><input class="campo_email" type="text" tabindex="0"> <br><br>
+                <label tabindex="0">Senha: </label><input class="campo_senha" type="password" tabindex="0">
+                <label tabindex="0">Confirme a Senha: </label><input class="campo_confirm" type="password" tabindex="0"> <br><br>
+                <input class="botao_reg" type="button" value="Registrar" tabindex="0">                
+            </fieldset>
+        </form>
+    </div>
+    <div id="lista">
+        <h1 tabindex="0">Plano de Viagem</h1>
+        <ol>
+            <li tabindex="0">Definir Destino</li>
+            <li tabindex="0">Definir Data</li>
+            <li tabindex="0">Pesquisar Preços</li>
+            <ol>
+                <li tabindex="0">Passagens</li>
+                <li tabindex="0">Estadia</li>
+                <li tabindex="0">Alimentação</li>
+                <li tabindex="0">Locomoção</li>
+            </ol>
+            <li tabindex="0">Comprar Passagens</li>
+            <li tabindex="0">Fazer Reservas</li>
+            <li tabindex="0">Arrumar as Malas</li>
+        </ol>
+        
+    </div>
+
+    <div id="altera_cor">
+        <h1 id="titulo" tabindex="0">Computador</h1>
+        <p tabindex="0">O computador é um conjunto de componentes eletrônicos capaz de executar variados tipos de algoritmos e tratamento de informações (processamento de dados). Este dispositivo pode possuir inúmeros atributos, dentre eles: armazenamento de dados, processamento de dados, cálculo em grande escala, desenho industrial, tratamento de imagens gráficas, realidade virtual, entretenimento e cultura.</p>
+
+        <button id="botao" onclick="alterarcor()" tabindex="0">Trocar Contraste</button>
+        <br>
+    </div>
+
+    <div id="imgs">
+        <img src="manualdoimundo.jpg" alt="Homem olhando pela luneta em um ambiente de trabalho" tabindex="0">
+        <img src="primorico.png" alt="Homem posando para foto com as mãos no bolso na frente de uma estante de ferro" tabindex="0">
+    </div>
+    <script src='main.js'></script>
+
+</body>
+</html>

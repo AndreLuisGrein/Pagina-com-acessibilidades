@@ -1,0 +1,20 @@
+#area{
+    background-color: grey;
+    border: 2px solid black;
+    text-align: center;
+    width: 600px;
+    height: 200px;
+}
+
+#area campo_nome, campo_sobrenome, campo_email, campo_senha, campo_confirm{
+    width: 80px;
+}
+
+#altera_cor{
+    width: 500px;
+    border: 2px solid black;
+}
+
+img{
+    width: 50%;
+}
